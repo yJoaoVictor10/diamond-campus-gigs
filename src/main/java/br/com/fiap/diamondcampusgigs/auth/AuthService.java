@@ -16,7 +16,7 @@ public class AuthService implements UserDetailsService {
         this.userRepository = userRepository;
     }
 
-    @Override   
+    @Override
     public UserDetails loadUserByUsername(String username)
             throws UsernameNotFoundException {
 
